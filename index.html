@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Tanvir Abir</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <script src="./script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script type="text/javascript" defer>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 3,
+                autoplay: true,
+                margin: 30,
+                loop: true,
+                autoplayHoverPause: true,
+                dots: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="main-heading">
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="#showcase">home</a></li>
+                    <li class="nav-item"><a href="#about">about</a></li>                   
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#projects">projects</a></li>
+                    <li class="nav-item"><a href="#contact">contact Me</a></li>
+                </ul>
+                <div>
+                    <h1 class="logo">Md Tanvir Abir </h1><span> .NET Developer</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="showcase" id="showcase">
+        <div class="showcase-content container">
+            <h1 class="lg-heading">Do What You Are</h1>
+            <p>Let's take a tour of the Journey I came through</p>
+            <a href="#about" class="btn btn-primary">Lets Go</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content container">
+            <div class="about-text">
+                <p class="small">About Me</p>
+                <h2><span id="typed-element"></span></h2>
+                <p>Highly skilled, competent, and diligent individual, I excel in full-stack development, specializing
+                    in web applications (C#, ASP.NET, HTML, CSS, JavaScript, Angular, Blazor, SignalR, Maui).
+                </p>
+                <a href="#projects" class="btn btn-primary" id="projects-btn">PROJECTS</a>
+                <a href="./img/Resume of Md Tanvir Abir.pdf" target="_blank" class="btn btn-primary">DOWNLOAD  RESUME</a>
+            </div>
+            <div class="about-img">
+                <img src="./img/01671929839.jpg" alt="About image of food">
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="skills">
+        <h2 class="tech-menu-heading">Skills</h2>
+        <div class="tech-menu-container container">
+            <div class="tech-menu-item">
+                <h1>FrontEnd</h1>
+                <br>
+                <br>
+                <br>
+                <h2>HTML5 and CSS3</h2>
+                <h2>JavaScript</h2>
+                <h2>Angular</h2>
+                <h2>Blazor</h2>
+                <h2>SignalR</h2>
+                <h2>.NET MAUI</h2>                        
+            </div>
+            <div class="tech-menu-item">
+                <h1>Backend</h1>
+                <br>
+                <br>
+                <br>
+                <h2>C#</h2>
+                <h2>ASP.NET Core</h2>
+                <h2>ASP.NET MVC</h2>
+                <h2>ASP.NET Web API</h2>
+                <h2>ASP.NET Web Form</h2>
+                <h2>ADO.NET</h2>
+                <h2>MS SQL Server</h2>
+             </div>
+            <div class="tech-menu-item">
+                <h1>Tools</h1>
+                <br>
+                <br>
+                <br>
+                <h2>Crystal Reports</h2>
+                <h2>NuGet</h2>
+                <h2>Git</h2>
+            </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-padding">
+            <div class="container">
+                <div>
+                    <div>
+                        <div class="section-heading">
+                            <h1>My Recent Projects</h1>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div>
+                    <div>
+                        <div class="owl-carousel project-carousel">
+                            <div class="single-project-item">
+                                <img src="./img/Project_Images/Library_Managment_System_Ado.Net.png" />
+                                <br>
+                                <p>
+                                I have here made a Library Managment System. This Application is run ADO.net Technology Windows Form.                 
+                                </p>
+                                <br>
+                                <h3>Library Managment System <span>Techonlogies used :</span></h3>
+                                <div class="tech-stack">
+                                    <h4>C#, ADO.net , Windows Form, Crystal report</h4>
+                                    <!--<img src="./img/csharp.svg" /> -->
+                                    <!-- <img src="./img/Ado.net.png" /> -->
+                                    <!-- <img src="./img/sass.png" />
+                                    <img src="./img/javascript.png" /> -->
+                                </div>
+                            </div>
+                            <div class="single-project-item">
+                                <img src="./img/Chat.png" />
+                                <br>
+                                <p>
+                                    Website Chat Application Project.
+                                </p>
+                                <br>
+                                <h3>Chat Application<span>Techonlogies used :</span></h3>
+                                <div class="tech-stack">
+                                    <img src="./img/html.png" />
+                                    <img src="./img/css3.svg" />
+                                    <img src="./img/javascript.png" />
+                                </div>
+                            </div>
+                            <div class="single-project-item">
+                                <img src="./img/Project_Images/Abir_Protfolio.png" />
+                                <br>
+                                <p>
+                                    PotrtFolio Website is a overall journey and a brief overview of my career.
+                                </p>
+                                <br>
+                                <h3>Portfolio <span>Techonlogies used :</span></h3>
+                                <div class="tech-stack">
+                                    <img src="./img/html.png" />
+                                    <img src="./img/css3.svg" />
+                                    <img src="./img/javascript.png" />
+                                </div>
+                            </div>
+                            <div class="single-project-item">
+                                <img src="./img/Project_Images/E_com.png" />
+                                <br>
+                                <p>
+                                    This Application is run Node js. This is Fully build on Browsers Storage (local storage, session storage)The E-commerce Website that contains the design of the products.
+                                </p>
+                                <br>
+                                <h3>E-commerce Website<span>Technologies used :</span></h3>
+                                <div class="tech-stack">
+                                    <img src="./img/html.png" />
+                                    <img src="./img/css3.svg" />
+                                    <img src="./img/javascript.png" />
+                                </div>
+                            </div>
+                            <div class="single-project-item">
+                                <img src="./img/Cuntry_City_Angular.png" />
+                                <br>
+                                <p>
+                                    This project provides information about countries and cities 
+                                    world wide List, Add, Update, Delete, Search etc. Here you can CRUD 
+                                    the country and City. 
+                                </p>
+                                <br>
+                                <h3>Cuntry City<span>Technologies used :</span></h3>
+                                <div class="tech-stack">
+                                    <img src="./img/cdnlogo.com_c.svg" />
+                                    <img src="./img/Web Api.png" />                                   
+                                </div>
+                            </div>
+                            <div class="single-project-item">
+                                <img src="./img/calculator.png" />
+                                <br>
+                                <p>
+                                    A calculator that calculates the mathematical sums.
+                                </p>
+                                <br>
+                                <h3>Web Calculator<span>Technologies used :</span></h3>
+                                <div class="tech-stack">
+                                    <img src="./img/html.png" />
+                                    <img src="./img/css3.svg" />
+                                    <img src="./img/javascript.png" />                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="projects-mobile" id="projects-mobile">
+        <h1>PROJECTS</h1>
+        <div class="category-container container">
+            <div class="category-box category-box1">
+                <div class="img-container">
+                    <img src="./img/project.png" alt="">
+                    <div class="img-content">
+                        <h2>PROJECTS</h2>
+                        <a href="https://github.com/mdtanvirabir" class="btn btn-primary" target="_blank">Learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+    <div class="contact-container container">
+        <div class="contact-image">
+            <img src="./img/contact-me.jpg" alt="contact us image">
+        </div>
+        <div class="contact-form">
+            <form class="form" id="contact-form">
+                <h2>Contact Me</h2>
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="email" placeholder="Email">
+                <textarea id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                <button type="button" id="submit-button" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="https://github.com/mdtanvirabir" class="social-link" target="_blank"><i
+                        class="fa-brands fa-2x fa-github text-light"></i></a>
+                <a href="https://www.linkedin.com/in/tanvirabir" class="social-link" target="_blank"><i
+                        class="fa-brands fa-2x fa-linkedin-in text-light"></i></a>
+                 <a href="https://www.facebook.com/tanvir.abir005" class="social-link" target="_blank"><i
+                        class="fa-brands fa-2x fa-facebook text-light"></i></a>       
+            </div>
+            <p class="text-light">Copyrights &copy; 2023 Md Tanvir Abir. all rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/5ade97e8eb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#typed-element', {
+            strings: ['Backend Developer','Frontend Developer' ],
+            typeSpeed: 200,
+        });
+    </script>
+
+</body>
+</html>
