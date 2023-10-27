@@ -642,8 +642,8 @@ body {
 
 
 .tech-menu-item h2 {
-    background-color: green; /* Set the background color for the rounded shapes */
-    color: white; /* Text color */
+    background-color: #16a083;
+    color: #fff;
     padding: 10px; /* Padding around the text */
     border-radius: 20px; /* Adjust the radius as needed for the desired roundness */
     display: inline-block; /* Make the shapes inline with the text */
